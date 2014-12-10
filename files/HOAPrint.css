@@ -1,0 +1,46 @@
+﻿@page {
+    size: letter;
+    margin: .5in;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    
+}
+
+body {
+    font: 12pt Verdana;
+    background-color: #fbf7e4;
+}
+
+header,
+footer {
+    display: none;
+}
+
+input {
+	margin-bottom: 1em;
+	padding: .25em;
+}
+
+main h1 {
+    margin-bottom: 12px;
+}
+
+main p {
+    margin-bottom: 1em;
+}
+
+footer {
+    position: relative;
+    margin-top: 2.5em;
+    padding: 1.5em;
+    background-color: #333;
+    color: white;
+    clear: both;
+    z-index: 1;
+}
